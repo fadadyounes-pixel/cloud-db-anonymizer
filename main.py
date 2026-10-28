@@ -24,7 +24,7 @@ from rich.table import Table
 import sanitizer as core
 
 __version__ = "1.0.0"
-PRO_URL = "https://gumroad.com/l/YOUR_PRODUCT_ID"
+PRO_URL = "https://qhnfvf-jb.myshopify.com/products/cloud-db-anonymizer-pro-suite"
 
 app = typer.Typer(
     name="cloud-db-anonymizer",

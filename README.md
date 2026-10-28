@@ -15,7 +15,7 @@
 
 > [!TIP]
 > ### 🚀 Need Multi-Cloud Sync, Docker Dashboard, and Telegram Webhooks?
-> **[Download the Pro Enterprise Suite on Gumroad for $29 →](https://gumroad.com/l/YOUR_PRODUCT_ID)**
+> **[Get the Pro Enterprise Suite for $29 →](https://qhnfvf-jb.myshopify.com/products/cloud-db-anonymizer-pro-suite)**
 >
 > Scheduled backups • Parallel upload to **AWS S3 + Cloudflare R2 + DigitalOcean Spaces** • Next.js web dashboard • **Telegram & Discord** alerts • One-command `docker compose up`
 
@@ -63,8 +63,9 @@ $ python main.py sanitize --db-url $DATABASE_URL --rules rules.json
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/YOUR_GITHUB/cloud-db-anonymizer.git
-cd cloud-db-anonymizer
+# Download the latest release
+curl -LO https://cloud-db-anonymizer.fadadyounes.workers.dev/cloud-db-anonymizer-cli-v1.0.0.zip
+unzip cloud-db-anonymizer-cli-v1.0.0.zip && cd cloud-db-anonymizer
 python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
@@ -224,13 +225,13 @@ Prefer a server that does this on its own, with a dashboard and alerts? 👇
 | **Web dashboard** (Next.js + Tailwind): run, history, rules editor | — | ✅ |
 | **Telegram & Discord** success/failure alerts | — | ✅ |
 | **Docker Compose** deploy, no Python/Node on the server | — | ✅ |
-| Commercial license for client work | MIT | ✅ |
+| Client deployments | MIT | Agency License |
 
 > [!IMPORTANT]
 > ### 🚀 Need Multi-Cloud Sync, Docker Dashboard, and Telegram Webhooks?
-> **[Download the Pro Enterprise Suite on Gumroad for $29 →](https://gumroad.com/l/YOUR_PRODUCT_ID)**
+> **[Get the Pro Enterprise Suite for $29 →](https://qhnfvf-jb.myshopify.com/products/cloud-db-anonymizer-pro-suite)**
 >
-> One-time payment. Self-hosted — your data never leaves your infrastructure. `docker compose up -d` and you're done.
+> One-time payment. Self-hosted — your data never leaves your infrastructure. `docker compose up -d` and you're done. Agencies deploying for clients: see the [Agency License](https://qhnfvf-jb.myshopify.com/products/cloud-db-anonymizer-agency-license) ($79).
 
 ## ❓ FAQ
 
