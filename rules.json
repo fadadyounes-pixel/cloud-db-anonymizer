@@ -1,0 +1,42 @@
+{
+  "schema": "public",
+  "locale": "en_US",
+  "include_unlisted_tables": true,
+  "exclude_tables": ["audit_logs", "sessions"],
+  "tables": {
+    "users": {
+      "columns": {
+        "email": "email",
+        "full_name": "name",
+        "phone": "phone",
+        "date_of_birth": "date_of_birth",
+        "last_login_ip": "ip"
+      }
+    },
+    "customers": {
+      "columns": {
+        "first_name": "first_name",
+        "last_name": "last_name",
+        "email": "email",
+        "street": "address",
+        "city": "city",
+        "zip": "postcode"
+      }
+    },
+    "payments": {
+      "columns": {
+        "card_number": "credit_card",
+        "iban": "iban",
+        "billing_name": "name"
+      }
+    },
+    "support_tickets": {
+      "columns": { "body": "redact" },
+      "where": "created_at > now() - interval '90 days'"
+    },
+    "api_keys": {
+      "columns": { "secret": "hash" }
+    },
+    "uploads": { "skip_data": true }
+  }
+}

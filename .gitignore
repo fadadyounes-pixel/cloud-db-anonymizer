@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.sql
+*.sql.gz
+.pytest_cache/
+# Paid Pro Suite — never publish to the public repo
+dist_pro_bundle/
+*.zip
+!examples/*.sql
