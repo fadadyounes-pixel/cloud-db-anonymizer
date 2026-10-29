@@ -256,6 +256,12 @@ PostgreSQL only for now. Open an issue with your use case — it helps prioritiz
 Yes. Combine <code>where</code> filters (e.g. last 30 days) with <code>skip_data</code> on huge log tables to produce small, realistic, shareable dev databases.
 </details>
 
+## 📚 Guides
+
+- [How to anonymize a PostgreSQL production database for staging (without breaking foreign keys)](https://qhnfvf-jb.myshopify.com/blogs/developer-guides/anonymize-postgresql-database-for-staging)
+- [GDPR and test data: stop copying real customer data into dev and staging](https://qhnfvf-jb.myshopify.com/blogs/developer-guides/gdpr-test-data-postgresql)
+- [Nightly sanitized PostgreSQL backups to AWS S3, Cloudflare R2 and DigitalOcean Spaces](https://qhnfvf-jb.myshopify.com/blogs/developer-guides/nightly-sanitized-postgresql-backups-s3-r2-spaces)
+
 ## 🧪 Development
 
 ```bash
