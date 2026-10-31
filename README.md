@@ -258,6 +258,7 @@ Yes. Combine <code>where</code> filters (e.g. last 30 days) with <code>skip_data
 
 ## 📚 Guides
 
+- [How to anonymize a PostgreSQL database in GitHub Actions (CI rules check + nightly sanitized dump)](https://qhnfvf-jb.myshopify.com/blogs/developer-guides/anonymize-postgresql-github-actions-ci)
 - [Open-source PostgreSQL data masking tools compared (2026): Greenmask vs PostgreSQL Anonymizer vs pganonymize vs Cloud-DB-Anonymizer](https://qhnfvf-jb.myshopify.com/blogs/developer-guides/postgresql-data-masking-tools-compared)
 - [How to anonymize a PostgreSQL production database for staging (without breaking foreign keys)](https://qhnfvf-jb.myshopify.com/blogs/developer-guides/anonymize-postgresql-database-for-staging)
 - [GDPR and test data: stop copying real customer data into dev and staging](https://qhnfvf-jb.myshopify.com/blogs/developer-guides/gdpr-test-data-postgresql)
