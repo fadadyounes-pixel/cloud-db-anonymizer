@@ -258,6 +258,7 @@ Yes. Combine <code>where</code> filters (e.g. last 30 days) with <code>skip_data
 
 ## 📚 Guides
 
+- [How to anonymize a pg_dump: share PostgreSQL dumps without personal data](https://qhnfvf-jb.myshopify.com/blogs/developer-guides/pg-dump-anonymize-postgresql)
 - [Neosync alternatives for PostgreSQL (2026): what to use now that Neosync is archived](https://qhnfvf-jb.myshopify.com/blogs/developer-guides/neosync-alternatives-postgresql)
 - [How to anonymize a PostgreSQL database in GitHub Actions (CI rules check + nightly sanitized dump)](https://qhnfvf-jb.myshopify.com/blogs/developer-guides/anonymize-postgresql-github-actions-ci)
 - [Open-source PostgreSQL data masking tools compared (2026): Greenmask vs PostgreSQL Anonymizer vs pganonymize vs Cloud-DB-Anonymizer](https://qhnfvf-jb.myshopify.com/blogs/developer-guides/postgresql-data-masking-tools-compared)
