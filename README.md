@@ -258,6 +258,7 @@ Yes. Combine <code>where</code> filters (e.g. last 30 days) with <code>skip_data
 
 ## 📚 Guides
 
+- [How to mask credit card numbers in PostgreSQL test data (PCI-friendly staging)](https://qhnfvf-jb.myshopify.com/blogs/developer-guides/mask-credit-card-numbers-postgresql)
 - [pg_dump vs logical replica vs snapshot restore: how to get production data into PostgreSQL staging (2026)](https://qhnfvf-jb.myshopify.com/blogs/developer-guides/pg-dump-vs-logical-replica-vs-snapshot-staging)
 - [How to anonymize a pg_dump: share PostgreSQL dumps without personal data](https://qhnfvf-jb.myshopify.com/blogs/developer-guides/pg-dump-anonymize-postgresql)
 - [Neosync alternatives for PostgreSQL (2026): what to use now that Neosync is archived](https://qhnfvf-jb.myshopify.com/blogs/developer-guides/neosync-alternatives-postgresql)
